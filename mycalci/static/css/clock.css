@@ -1,0 +1,10 @@
+h1{
+    font-size: 6rem;
+}
+.clock-box{background-color: rgba(204, 164, 241, 0.356);
+    width: 480px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+/* color: black; */
+border-radius: 20px;}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container d-flex align-items-center justify-content-center vh-100 box-2" id="currency">
+<div class="box1  d-flex flex-column">
+    <h3 class="fs-2 fw-bolder ">Currency Converter</h3><br>
+    <label for="" class="fs-5">AMOUNT</label>
+    <input type="number" value="1" class="amount">
+    <label for="" id="from" class="fs-5">FROM</label>
+    <select name="from" class="drop-list" id="from1">
+        
+    </select>
+    <label for="" id="to" class="fs-5">TO</label>
+    <select name="from" class="drop-list" id="to1">
+        
+    </select>
+    <br>
+    <label for="" class="showrate fs-5 fw-bold" ></label>
+    <button type="submit" class="btn btn-outline-dark">Convert</button>
+</div>
+</div>
+<script src="/static/js/country.js"></script>
+<script src="/static/js/currency.js"></script>
+{% endblock%}

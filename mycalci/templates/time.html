@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+{% block content %}
+<link rel="stylesheet" href="/static/css/clock.css">
+<div class="vh-100 container clock d-flex align-items-center justify-content-center " id="clock">
+    <div class="d-flex clock-box">
+        <h1 id="hrs">00</h1>
+        <h1>:</h1>
+        <h1 id="min">00</h1>
+        <h1>:</h1>
+        <h1 id="sec">00</h1>
+    </div>
+
+</div>
+
+
+
+<script src="/static/js/clock.js"></script>
+{% endblock %}
